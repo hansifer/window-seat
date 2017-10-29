@@ -1,0 +1,46 @@
+input[type="number"],
+select {
+    text-align: right;
+    border: none;
+    background: hsl(0, 0%, 95%);
+}
+
+select:hover,
+select:focus {
+    background-image: url(img/arrow-down.png);
+    background-position: right 3px top 50%;
+    background-repeat: no-repeat;
+}
+
+.instructions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main-body {
+    display: grid;
+    grid-template-columns: min-content min-content 56px 1fr min-content min-content 56px min-content;
+    grid-gap: 8px;
+    margin: 25px 10px 30px 5px;
+}
+
+.main-body > * {
+    display: flex;
+    align-items: center;
+}
+
+.post-label {
+    color: hsl(0, 0%, 70%);
+}
+
+.footer {
+    display: flex;
+}
+
+.footer > .button-group {
+    margin-left: auto;
+}
+
+.footer button {
+    min-width: 57px;
+}

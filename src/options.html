@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Window Seat Options</title>
+    <link rel="stylesheet" type="text/css" href="options.css">
+</head>
+
+<body>
+    <div class="instructions">Set the desired position, size, and state of new browser windows</div>
+    <div class="main-body">
+        <div><img src="img/left.png" /></div>
+        <div class="label">Left</div>
+        <input type="number" id="win-left"></input>
+        <div class="post-label">pixels</div>
+        <div><img src="img/width.png" /></div>
+        <div class="label">Width</div>
+        <input type="number" id="win-width"></input>
+        <div class="post-label">pixels</div>
+        <div><img src="img/top.png" /></div>
+        <div class="label">Top</div>
+        <input type="number" id="win-top"></input>
+        <div class="post-label">pixels</div>
+        <div><img src="img/height.png" /></div>
+        <div class="label">Height</div>
+        <input type="number" id="win-height"></input>
+        <div class="post-label">pixels</div>
+        <div><img src="img/state.png" /></div>
+        <div class="label">State</div>
+        <div style="grid-column: 3 / 5;">
+            <select id="win-state">
+                <option value="normal">Normal</option>
+                <option value="maximized">Maximized</option>
+                <option value="minimized">Minimized</option>
+                <option value="fullscreen">Full screen</option>
+            </select>
+        </div>
+    </div>
+    <div class="footer">
+        <button id="set-from-current-window">Set from current window</button>
+        <div class="button-group">
+            <button id="ok">OK</button>
+            <button id="cancel">Cancel</button>
+        </div>
+    </div>
+    <script type="module" src="options.js"></script>
+</body>
+
+</html>
