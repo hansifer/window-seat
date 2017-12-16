@@ -1,6 +1,6 @@
 <img src="http://hansifer.com/hosted-assets/window-seat/github-title-2.png">
 
-## Force browser windows to open with a consistent position and size
+## Force browser windows to open with consistent position and size
 
 ### The problem
 
