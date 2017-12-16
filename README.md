@@ -18,4 +18,4 @@ Browser windows sometimes don't open with the expected position, size, or state.
 
 <div align="center"><img height="354" src="http://hansifer.com/hosted-assets/window-seat/options-5.png"></div>
 
-Currently available for [Chrome](https://chrome.google.com/webstore/detail/window-seat/ffapagmeaendpngophdffbjjcobilago)
+Currently available for [Chrome](https://chrome.google.com/webstore/detail/window-seat/ffapagmeaendpngophdffbjjcobilago) (v63 and above)
