@@ -1,6 +1,6 @@
 {
   "name": "Window Seat",
-  "description": "Force browser windows to open with consistent position and size",
+  "description": "Make browser windows open with a consistent position and size",
   "version": "1.0",
   "minimum_chrome_version": "63",
   "manifest_version": 2,
