@@ -1,11 +1,11 @@
 <img src="http://hansifer.com/hosted-assets/window-seat/github-title-2.png">
 
-## Make browser windows open with a consistent position and size
+## Make browser windows open at a consistent position and size
 
 ### The problem
 
 <img height="152" align="left" src="http://hansifer.com/hosted-assets/window-seat/cascaded-windows-6.png"><br>
-Browser windows sometimes don't open with the desired position, size, or state. For example, new windows may "cascade". New windows may also fail to receive focus.
+Browser windows sometimes don't open at the desired position, size, or state. For example, new windows may "cascade". New windows may also fail to receive focus.
 
 <br>
 <br>
